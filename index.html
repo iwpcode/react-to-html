@@ -5,9 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>React Add to HTML DOM</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="like_button_container"></div>
+  <div class="container">
+    <div id="header-nav"></div>
+    <div id="like_button_container"></div>
+  </div>
 
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -15,6 +20,7 @@
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
   <!-- Load our React component. -->
+  <script src="components/header.js"></script>
   <script src="like_button.js"></script>
 </body>
 </html>

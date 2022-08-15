@@ -1,0 +1,16 @@
+.container{
+  width: 870px;
+  margin: 0 auto;
+}
+
+.header-nav{
+  padding: 10px;
+  background-color: aquamarine;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.header-nav a{
+  padding: 0 10px;
+  text-decoration: none;
+}
